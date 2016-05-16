@@ -19,6 +19,6 @@ potatoApp.config(['$routeProvider',
         controller: 'PotatoDetailCtrl'
       }).
       otherwise({
-        redirectTo: '/potatoes'
+        redirectTo: '/potato'
       });
   }]);
